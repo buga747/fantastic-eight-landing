@@ -9,10 +9,13 @@
     text-transform: uppercase;
     color: $primary-text-color;
     margin-bottom: 40px;
+    max-width: 210px;
+
 
     @include breakpoint-min($tablet) {
         font-size: 34px;
         margin-bottom: 80px;
+        max-width: unset;
     }
 
     @include breakpoint-min($desktop) {

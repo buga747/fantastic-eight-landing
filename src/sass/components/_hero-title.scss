@@ -1,4 +1,4 @@
-.hero__title {
+.hero-title {
     font-family: $secondary-font;
     font-style: normal;
     font-weight: 400;
@@ -8,12 +8,13 @@
     text-transform: uppercase;
     color: $primary-light-color;
     margin-bottom: 32px;
-
+    width: 250px;
 
     @include breakpoint-min($tablet) {
         font-size: 18px;
         line-height: 1.28;
         margin-bottom: 21px;
+        width: 185px;
     }
 
     @include breakpoint-min($desktop) {
@@ -22,6 +23,7 @@
         line-height: 1.26;
         letter-spacing: 0.04em;
         margin-bottom: 28px;
+        width: 367px;
     }
 
     &--accent {
